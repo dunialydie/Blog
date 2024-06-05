@@ -27,6 +27,11 @@
     }
 }
 
-.bg-custom {
-    background-image: url('assets/esther-jiao-ADv0GiMBlmI-unsplash.jpg');
+.quoted-text::before {
+    content: '«';
   }
+  
+  .quoted-text::after {
+    content: '»';
+  }
+  
